@@ -25,7 +25,7 @@ const writeDriversFs = async (drivers) => {
 routerDriver.post("/postDrivers", async (req, res) => {
     const drivers = await readDriversFs();
     const newDriver = {
-        id: drivers.length + 1,
+        id: new Date().getTime(),
         name: req.body.name,
     };
 
