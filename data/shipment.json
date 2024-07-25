@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1721949756679,
+    "item": "balones",
+    "quantity": 20,
+    "warehouseId": {
+      "id": 1721939207239,
+      "name": "servientrega",
+      "location": "cra27 # 22sur"
+    }
+  }
+]
